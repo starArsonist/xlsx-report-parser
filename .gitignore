@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+dist/
+*.egg-info/
+# real reports contain customer data - keep them out of git
+*.xlsx
+!examples/*.xlsx
+out/
