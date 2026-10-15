@@ -8,8 +8,8 @@ import pytest
 from helpers import FakeApi, make_workbook
 
 from xlsx_report_parser import merge_reports, parse_report
-from xlsx_report_parser.client import PushError, push_records
 from xlsx_report_parser.cli import main
+from xlsx_report_parser.client import PushError, push_records
 from xlsx_report_parser.export import records_to_csv, records_to_json
 from xlsx_report_parser.sample import generate_sample
 
